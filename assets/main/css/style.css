@@ -717,7 +717,8 @@ a {
 }
 
 .hero-bg-light-yellow {
-  height: 630px;
+  /* height: 630px; */
+  height: 100%;
   background-repeat: no-repeat;
   background-color: #ecefff;
   background-position: center top;

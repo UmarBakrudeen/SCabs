@@ -4600,6 +4600,9 @@ mat-radio-group {
   width: 100%;
   z-index: 1;
 }
+.hero-area .hero-area-slider {
+  padding-bottom: 80px;
+}
 
 @media (min-width: 900px) {
   .hero-area .hero-area-slider {
@@ -5053,4 +5056,20 @@ button:hover {
 .table-head-body td {
   padding: 10px 15px;
   border: 1px solid #ddd;
+}
+
+.booking_container {
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+@media screen and (max-width: 575px) {
+  .booking_container {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
 }
